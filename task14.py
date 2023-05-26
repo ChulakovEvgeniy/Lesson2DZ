@@ -6,5 +6,5 @@ if count == 0:
     number = 1
 else:
     for _ in range(count-1):
-        number = number * number
+        number = number * 2
 print(number)
