@@ -16,8 +16,8 @@ for i in range(days):
     print(money, end=' ')
     if money > 0:
         count1 += 1
-    if money == 0:
-        count2 +=1
+    else:
+        count2 += 1
 
 print()
 if count2 > count1:
